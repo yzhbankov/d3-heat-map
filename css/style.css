@@ -1,11 +1,17 @@
 body {
-    font: 10px sans-serif;
+    font: 15px sans-serif;
+}
+.graph {
+    text-align: center;
+    margin-top: 100px;
 }
 
 .label {
     font-weight: bold;
 }
-
+.title{
+    font-size: 30px;
+}
 .tile {
     shape-rendering: crispEdges;
 }
@@ -33,4 +39,7 @@ body {
     pointer-events: none;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
     background-color: black;
+}
+.y-axes{
+
 }
