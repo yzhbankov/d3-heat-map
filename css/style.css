@@ -16,8 +16,21 @@ body {
     stroke: #000;
     shape-rendering: crispEdges;
 }
-.ar {
-    color: red;
+.legend-text{
+    font-size: 15px;
+}
 
-    color: #0906f6;
+.tooltip {
+    position: absolute;
+    margin: 0;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: black;
 }
